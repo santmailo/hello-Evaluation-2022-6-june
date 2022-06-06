@@ -1,0 +1,86 @@
+/* Fill CSS here */
+h1{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(82, 82, 132);
+   text-decoration: underline;
+   text-transform: uppercase;
+   word-spacing: 20px;
+   margin-top: 40px;
+   margin-bottom: 80px;
+
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+form{
+    padding: 20px;
+    height:auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+label{
+    font-size: larger;
+}
+
+input{
+    width: 400px;
+    height: 20px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+    padding: 6px;
+    margin: 5px 0px 10px 0px;
+}
+
+select{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+    padding: 6px;
+    margin: 5px 0px 10px 0px;
+    font-weight: bold;
+}
+
+
+input[type=submit]{
+    background-color: rgb(82, 82, 132) ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding:12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+table{
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+tr{
+    border: 1px solid;
+    height: 10px;
+}
+
+th, td {
+    border: 1px solid #006;
+    width: auto;
+    padding: 10px;
+  }
+
+thead{
+    background-color:rgb(82, 82, 132);
+    color: white;
+}
